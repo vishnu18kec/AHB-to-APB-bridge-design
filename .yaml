@@ -8,6 +8,4 @@ apb_slave_model.v
 ahb_to_apb_bridge_top.v
 tb_ahb_to_apb_bridge.v
 
-yaml
-Copy code
 3. Run simulation and view read/write operations in waveform viewer 
