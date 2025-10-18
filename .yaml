@@ -1,0 +1,13 @@
+1. Open your Verilog simulator (ModelSim, Vivado, etc.)  
+2. Compile all `.v` files in this order:  
+ahb_req_capture.v
+byte_en_generator.v
+addr_decode.v
+apb_master_ctrl.v
+apb_slave_model.v
+ahb_to_apb_bridge_top.v
+tb_ahb_to_apb_bridge.v
+
+yaml
+Copy code
+3. Run simulation and view read/write operations in waveform viewer 
