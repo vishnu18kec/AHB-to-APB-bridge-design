@@ -71,29 +71,6 @@ A single **Verilog testbench** (`tb_ahb_to_apb_bridge.v`) is included, which:
 ├── tb_ahb_to_apb_bridge.v
 └── README.md
 
-yaml
-Copy code
-
----
-
-## 📝 How to Simulate
-
-1. Open your Verilog simulation tool (ModelSim, Vivado, or any compatible simulator).  
-2. Compile all `.v` files in the order:  
-ahb_req_capture.v
-byte_en_generator.v
-addr_decode.v
-apb_master_ctrl.v
-apb_slave_model.v
-ahb_to_apb_bridge_top.v
-tb_ahb_to_apb_bridge.v
-
-yaml
-Copy code
-3. Run the simulation and observe the read/write operations in the waveform viewer.  
-
----
-
 ## 💡 Applications
 
 - Embedded systems requiring AHB-to-APB bridging.  
